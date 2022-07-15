@@ -1,0 +1,31 @@
+.login_tooltip{
+    display: flex;
+    align-items: center;
+    padding: 0px 7px;
+    justify-content: space-between;
+    /* flex-direction: column; */
+    cursor: pointer;
+    margin-right: 10px;
+
+}
+.login_tooltip_main >hr{
+    margin-left: -5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 108%;
+    height: 0.5px;
+    background-color: rgb(233,233,233);
+    border: none;
+}
+.login_tooltip>p{
+    padding: 0px 0px;
+}
+
+.login_tooltip:hover{
+    cursor: pointer;
+    background-color:black;
+    transform: scale(0.9);
+    border-radius: 5px;
+    
+}
+
