@@ -1,7 +1,8 @@
 import React from 'react'
 import SignInBody from '../SignInBody/SignInBody.js'
 import Navbar from "../Navbar/Navbar.js"
-function Login() {
+
+function Login(setIsUserLoggedIn) {
   return (
     <div>
 
